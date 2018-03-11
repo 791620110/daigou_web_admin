@@ -1,0 +1,72 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6":true
+  },
+  "extends": "eslint:recommended",
+  "plugins": ["html"],
+  "rules": {
+    "indent": ["error", 4, {
+      "SwitchCase": 1
+    }],
+    // 除需要转义的情况外，字符串统一使用单引号
+    "quotes": ["error", "single"],
+    // 要求或禁止使用分号
+    "semi": ["error", "always"],
+    //console 过滤
+    "no-console": ["error"],
+    // 要求或禁止 var 声明中的初始化
+    "no-var": ["error"],
+    // 禁止debugger
+    "no-debugger": ["error"],
+    // 禁止alert
+    "no-alert":["error"],
+    //使用 === 判断等于
+    "eqeqeq": ["error"],
+    //多行 if 语句的的括号不能省
+    "curly": ["error"],
+    //使用驼峰命名
+    "camelcase": ["error"],
+    //构造函数首字母大写
+    "new-cap":["error"],
+    //子类构造器一定要用supper
+    "constructor-super":["error"],
+    //避免修改 const 变量
+    "no-const-assign":["error"],
+    //不使用冗余参数
+    "no-dupe-args":["error"],
+    //多次导入一次写完
+    "no-duplicate-imports":["error"],
+    //switch 中一定要有break
+    "no-fallthrough":["error"],
+    //不要省去小数点前面的0
+    "no-floating-decimal": "error",
+    //外部变量不要与对象属性重名
+    "no-label-var":"error",
+    //不要书写不必要的嵌套代码块
+    "no-lone-blocks":"error",
+    //不要将全局对象的属性作为函数调用
+    "no-obj-calls":"error",
+    //要重复声明变量
+    "no-redeclare":"error",
+    //不要随意更改关键字的值
+    "no-shadow-restricted-names":"error",
+    //正确使用 ES6 中的字符串模板
+    "no-template-curly-in-string":"error",
+    //用 throw 抛错时，抛出 Error 对象而不是字符串
+    "no-throw-literal":"error",
+    //循环语句中注意更新循环变量
+    "no-unmodified-loop-condition":"error",
+    //return throw continue ,break 后不加代码
+    "no-unreachable":"error",
+    //finally 代码块中不要再改变程序执行流程
+    "no-unsafe-finally":"error",
+    //避免多余6留白
+    "padded-blocks":"warn"
+  }
+}

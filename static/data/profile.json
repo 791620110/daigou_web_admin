@@ -1,0 +1,59 @@
+/**
+ * Created by lanux on 2017/3/13.
+ */
+export default [
+  {"id":31,"parentId":null,"sort":1,"name":"仓库管理","href":"/img/upload","icon":"fa fa-upload","children":
+      [
+          {"id":92,"parentId":31,"sort":0,"name":"仓库列表","href":"/warehouse/cloudWarehouse","icon":"fa fa-bank","children":[]}
+      ]
+  },
+  {"id":97,"parentId":null,"sort":2,"name":"运输单管理","href":"/img/process","icon":"fa fa-file-picture-o","children":
+      [
+        {"id":100,"parentId":97,"sort":1,"name":"运输单列表","href":"/transport/transportList","icon":"fa fa-beer","children":[]},
+        {"id":99,"parentId":97,"sort":2,"name":"运输单添加","href":"/transport/transportAdd","icon":"fa fa-battery-2","children":[]},
+      ]
+  },
+  {"id":102,"parentId":null,"sort":3,"name":"客户管理","href":"/customer","icon":"fa fa-download","children":
+      [
+        {"id":103,"parentId":102,"sort":0,"name":"客户列表","href":"/customer/customerList","icon":"fa fa-image","children":[]}
+      ]
+  },
+  {"id":114,"parentId":null,"sort":4,"name":"药品管理","href":"/medicine","icon":"fa fa-download","children":
+    [
+      {"id":115,"parentId":114,"sort":0,"name":"药品列表","href":"/medicine/medicineList","icon":"fa fa-image","children":[]}
+    ]
+  },
+  {"id":120,"parentId":null,"sort":4,"name":"账户管理","href":"/account","icon":"fa fa-download","children":
+    [
+      {"id":121,"parentId":120,"sort":0,"name":"账户配置","href":"/account/accountInfo","icon":"fa fa-image","children":[]}
+    ]
+  },
+  {"id":6,"parentId":null,"sort":6,"name":"系统管理","href":"/sys","icon":"el-icon-setting","children":
+      [
+        {"id":108,"parentId":6,"sort":0,"name":" 资源管理","href":"/sys/resource","icon":"fa fa-database","children":[]},
+        {"id":7,"parentId":6,"sort":1,"name":"菜单管理","href":"/sys/menuList","icon":"fa fa-navicon","children":[]},
+        {"id":8,"parentId":6,"sort":2,"name":"角色管理","href":"/sys/roleList","icon":"fa fa-universal-access","children":[]},
+        {"id":9,"parentId":6,"sort":3,"name":"用户管理","href":"/sys/userList","icon":"fa fa-user-plus","children":[]}
+      ]
+  },
+
+  {"id":1001,"parentId":null,"sort":6,"name":"云仓订单管理","href":"/cloudAdmin","icon":"el-icon-setting","children":
+    [
+      {"id":1002,"parentId":1001,"sort":0,"name":" 订单列表","href":"/cloudAdmin/orderList","icon":"fa fa-database","children":[]},
+    ]
+  },
+
+  {"id":1011,"parentId":null,"sort":7,"name":"云仓管理","href":"/chamber","icon":"el-icon-setting","children":
+    [
+      {"id":1012,"parentId":1011,"sort":0,"name":" 云仓列表","href":"/chamber/chamberList","icon":"fa fa-database","children":[]},
+    ]
+  },
+
+  {"id":1021,"parentId":null,"sort":8,"name":"药厂管理","href":"/medFactory","icon":"el-icon-setting","children":
+    [
+      {"id":1022,"parentId":1021,"sort":0,"name":" 药厂列表","href":"/medFactory/medFactoryList","icon":"fa fa-database","children":[]},
+    ]
+  },
+
+  ]
+
